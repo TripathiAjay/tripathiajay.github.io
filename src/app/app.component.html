@@ -1,0 +1,6 @@
+<div style="text-align: center;">
+  <h1>{{ title }}</h1>
+</div>
+<p style="padding: 15px">{{ initialData | async }}</p>
+<button type="button" style="background-color: aqua" (click)="getExtraData()">Click here to get extra data</button>
+<p style="padding: 15px">{{ extraData | async }}</p>
